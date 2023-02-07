@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/style.css">
+<!-- Sign in -->
+<section>
+    <!-- Wrapper CONTAINER -->
+    <div class=" h-full container pt-10 mx-auto p-4">
+        <!-- logo and sign in text CONTAINER -->
+        <div class="text-center space-y-4">
+            <!-- (SET YOUR LOGO) -->
+            <img src="images/tailwind-css-seeklogo.com.svg" class="mx-auto w-16" alt="">
+            <h1 class="font-bold text-4xl">Sign in to your account</h1>
+            <!-- (SET YOUR TRIAL URL) -->
+            <p>Or <a href="" class="text-cyan-600">Start your 14 day free trial</a></p>
+        </div>
+        <!-- form card -->
+        <div class="p-6 max-w-lg mx-auto shadow-lg rounded-xl">
+            <form>
+                <!-- email form -->
+                <label for="" class="font-bold">Email address</label>
+                <input type="email" class="w-full px-2 rounded-lg border-2 mt-2 mb-3 outline-none  py-2" placeholder="Email">
+                <!-- password form -->
+                <label for="" class="font-bold">Password</label>
+                <input type="password" class="w-full rounded-lg border-2 px-2 my-2 outline-none py-2" placeholder="password">
+                <!-- remember me and forgot password CONTAINER  -->
+                <div class="flex items-center my-3 justify-between">
+                    <div class="flex space-x-2">
+                        <!-- remember me checkbox -->
+                        <input class="accent-cyan-600" type="checkbox">
+                        <p>Remember me</p>
+                    </div>
+                    <!-- (SET YOUR FORGOT PASSWORD URL) -->
+                    <a href="" class="text-cyan-500">Forgot your password ?</a>
+                </div>
+                <!-- sign in button -->
+                <a href=""><button class="w-full my-2 rounded-lg py-2 bg-cyan-600 text-white hover:bg-cyan-800 duration-200">Sign in</button></a>
+                <h1 class="flex before:mr-3 after:ml-3 before:border-b-2 before:m-auto after:m-auto after:border-b-2 before:flex-1 after:flex-1 text-center">Or continue with</h1>
+                <!-- sign in using other accounts CONTAINER -->
+                <div class="grid mt-3 grid-cols-3 gap-2">
+                    <a href=""><button class="py-3 w-full rounded-lg border-2">Facebook</button></a>
+                    <a href=""><button class="py-3 w-full rounded-lg border-2">Google</button></a>
+                    <a href=""><button class="py-3 w-full rounded-lg border-2">Github</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
